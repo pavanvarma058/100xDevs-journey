@@ -33,3 +33,19 @@ for (let i = 1; i < numArr.length; i++) {
 }
 
 console.log("The Max number in the given array is " + max);
+
+// Write a program that reverses all the elements of an array
+
+const arr = [25, 36, 28, 45];
+
+console.log(arr.reverse());
+
+const arr1 = ["pavan", 45, "sun", "divide", 100];
+
+const revArr = [];
+
+for (let i = arr1.length - 1; i >= 0; i--) {
+  const valueIndex = arr1[i];
+  revArr.push(valueIndex);
+}
+console.log(revArr);
