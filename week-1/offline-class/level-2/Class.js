@@ -6,6 +6,7 @@ class Animal {
   }
 
   static myType() {
+    // the static are only associate with only class but not with objects
     console.log("Animal");
   }
   describe() {
